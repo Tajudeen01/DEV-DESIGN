@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <div class="board-wrapper">
+        <div class="navbar-container">
+            <div class="logo-search-container">
+                <div class="logo-container">
+                    <div class="logo">
+                        <img src="./images/Image (2).svg" alt="logo">
+                    </div>
+                    <div class="logo-word">
+                        <p>Organix.</p>
+                    </div>
+                </div>
+                <div class="search-container">
+                    <form>
+                        <div class="search-icon">
+                            <i class='bx bx-search' ></i>
+                        </div>
+                        <input type="text" placeholder="Search" id="search">
+                    </form>
+                    <div class="command">
+                        <div class="command-icon">
+                            <i class='bx bx-command' ></i>
+                        </div>
+                        <p>F</p> 
+                    </div>
+                </div>
+            </div>
+            <div class="menu-container">
+                <div class="main-menu">
+                    <div class="menu-text">
+                        <p>MAIN MENU</p>
+                    </div>
+                    <div class="tab-container">
+                        <div class="tab">
+                            <div class="tab-icon">
+                                <i class='bx bx-home-alt-2' ></i>
+                            </div>
+                            <div class="tab-text">
+                                <p>Home</p>
+                            </div>
+                        </div>
+    
+                        <div class="tab">
+                            <div class="tab-icon">
+                                <i class='bx bx-folder' ></i>
+                            </div>
+                            <div class="tab-text">
+                                <p>Projects</p>
+                            </div>
+                        </div>
+
+                        <div class="tab">
+                            <div class="tab-icon">
+                                <i class='bx bx-calendar-alt' ></i>
+                            </div>
+                            <div class="tab-text">
+                                <p>Calendar</p>
+                            </div>
+                        </div>
+
+                        <div class="tab">
+                            <div class="tab-icon">
+                                <i class='bx bx-user' ></i>
+                            </div>
+                            <div class="tab-text">
+                                <p>Team member</p>
+                            </div>
+                        </div>
+
+                        <div class="tab">
+                            <div class="tab-icon">
+                                <i class='bx bx-pie-chart-alt'></i>
+                            </div>
+                            <div class="tab-text">
+                                <p>Analytics</p>
+                            </div>
+                        </div>
+
+                        <div class="tab">
+                            <div class="tab-icon">
+                                <i class='bx bx-wallet-alt' ></i>
+                            </div>
+                            <div class="tab-text">
+                                <p>Wallet</p>
+                            </div>
+                        </div>
+
+                        <div class="tab active">
+                            <div class="tab-icon active1">
+                                <i class='bx bxs-notepad' ></i>
+                            </div>
+                            <div class="tab-text active2">
+                                <p>Tasks</p>
+                            </div>
+                        </div>
+
+                        <div class="tab">
+                            <div class="tab-icon">
+                                <i class='bx bx-envelope' ></i>
+                            </div>
+                            <div class="tab-text">
+                                <p>Mail</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main-menu">
+                    <div class="menu-text">
+                        <p>LABEL</p>
+                    </div>
+                    <div class="tab-container">
+                        <div class="tab">
+                            <div class="tab-icon teal">
+                                <i class='bx bxs-circle' ></i>
+                            </div>
+                            <div class="tab-text">
+                                <p>Marketing</p>
+                            </div>
+                        </div>
+    
+                        <div class="tab">
+                            <div class="tab-icon blue">
+                                <i class='bx bxs-circle' ></i>
+                            </div>
+                            <div class="tab-text">
+                                <p>Development</p>
+                            </div>
+                        </div>
+
+                        <div class="tab">
+                            <div class="tab-icon orange">
+                                <i class='bx bxs-circle' ></i>
+                            </div>
+                            <div class="tab-text">
+                                <p>Design</p>
+                            </div>
+                        </div>
+
+                        <div class="tab">
+                            <div class="tab-icon pink">
+                                <i class='bx bxs-circle' ></i>
+                            </div>
+                            <div class="tab-text">
+                                <p>3D Modeling</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+            </div>
+            <div class="cards-container">
+                <div class="top-card-container">
+                    <div class="left-content">
+                        <h2>Tasks</h2>
+                    </div>
+                    <div class="right-content">
+                        <div class="add-task">
+                            <div class="task-icon">
+                                <i class='bx bx-plus' ></i>
+                            </div>
+                            <div class="task-text">
+                                <p>Add Task</p>
+                            </div>
+                        </div>
+                        <div class="notification-icon">
+                            <i class='bx bx-bell' ></i>
+                        </div>
+                        <div class="profile-picture">
+                            <img src="./images/memoji-2.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom-card-container">
+                    <div class="bottom-up">
+                        <div class="left-btm-up">
+                            <div class="board btmpd">
+                                <div class="btm-icon colored">
+                                    <i class='bx bxs-dashboard' ></i>
+                                </div>
+                                <div class="board-text colored1">
+                                    <p>Board</p>
+                                </div>
+                            </div>
+                            <div class="board">
+                                <div class="btm-icon">
+                                    <i class='bx bx-layout'></i>
+                                </div>
+                                <div class="board-text">
+                                    <p>Table</p>
+                                </div>
+                            </div>
+                            <div class="board">
+                                <div class="btm-icon">
+                                    <i class='bx bx-calendar-week' ></i>
+                                </div>
+                                <div class="board-text">
+                                    <p>Calendar</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right-btm-up">
+                            <div class="board">
+                                <div class="btm-icon">
+                                    <i class='bx bx-filter-alt' ></i>
+                                </div>
+                                <div class="board-text">
+                                    <p>Filter</p>
+                                </div>
+                            </div>
+                            <div class="board">
+                                <div class="btm-icon">
+                                    <i class='bx bx-sort' ></i>
+                                </div>
+                                <div class="board-text">
+                                    <p>Sort</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottom-down">
+                        <div class="column">
+                            <div class="color-tag purple">
+                                <div class="tag-text">
+                                    <p>To-Do</p>
+                                </div>
+                                <div class="tag-icon pbg">
+                                    <i class='bx bx-plus' ></i>
+                                </div>
+                            </div>
+                            <div class="card1">
+                                <div class="layer1">
+                                    <div class="title">
+                                        <p>DESIGN</p>
+                                    </div>
+                                    <div class="more-icon">
+                                        <i class='bx bx-dots-horizontal-rounded' ></i>
+                                    </div>
+                                </div>
+                                <div class="layer2">
+                                   <img src="./images/pexels-cottonbro-cg-studio-70588080-8830979 (1).jpg" alt="">
+                                </div>
+                                <div class="layer3">
+                                    <div class="title-lg">
+                                        <p>Customer Journey Mapping</p>
+                                    </div>
+                                    <div class="title-body">
+                                        <p>Kidszone</p>
+                                    </div>
+                                </div>
+                                <div class="layer4">
+                                    <div class="flag-clock-container">
+                                        <div class="flag-container">
+                                            <div class="flag-icon">
+                                                <i class='bx bx-flag' ></i>
+                                            </div>
+                                            <div class="flag-text">
+                                                <p>Medium</p>
+                                            </div>
+                                        </div>
+                                        <div class="clock-container">
+                                            <div class="clock-icon">
+                                                <i class='bx bx-time-five' ></i>
+                                            </div>
+                                            <div class="clock-text">
+                                                <p>25 October</p>
+                                            </div>
+                                        </div>  
+                                    </div>
+                                </div>
+                                <div class="layer5">
+                                    <div class="avater-container">
+                                        <div class="avatar">
+                                            <img src="./images/memoji-1.png" alt="">
+                                        </div>
+                                        <div class="avatar">
+                                            <img src="./images/memoji-2.png" alt="">
+                                        </div>
+                                        <div class="avatar">
+                                            <img src="./images/memoji.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="chain-container">
+                                        <div class="link">
+                                            <div class="link-icon">
+                                                <i class='bx bx-link-alt' ></i>
+                                            </div>
+                                            <div class="link-number">
+                                                <p>16</p>
+                                            </div>
+                                        </div>
+                                        <div class="link">
+                                            <div class="link-icon">
+                                                <i class='bx bx-message-square-dots' ></i>
+                                            </div>
+                                            <div class="link-number">
+                                                <p>21</p>
+                                            </div>
+                                        </div>     
+                                       </div>
+                                    </div>
+                                    </div>
+                                    <div class="card1 brdclr">
+                                        <div class="layer1">
+                                            <div class="title">
+                                                <p>DESIGN</p>
+                                            </div>
+                                            <div class="more-icon">
+                                                <i class='bx bx-dots-horizontal-rounded' ></i>
+                                            </div>
+                                        </div>
+                                        <div class="layer3">
+                                            <div class="title-lg">
+                                                <p>UI Component Modification</p>
+                                            </div>
+                                            <div class="title-body">
+                                                <p>Bookly</p>
+                                            </div>
+                                        </div>
+                                        <div class="layer3-5">
+                                            <p>Microinteractions, Loading and Progress
+                                            </p>
+                                        </div>
+                                        <div class="layer4">
+                                            <div class="flag-clock-container">
+                                                <div class="flag-container">
+                                                    <div class="flag-icon">
+                                                        <i class='bx bx-flag' ></i>
+                                                    </div>
+                                                    <div class="flag-text">
+                                                        <p>Medium</p>
+                                                    </div>
+                                                </div>
+                                                <div class="clock-container">
+                                                    <div class="clock-icon">
+                                                        <i class='bx bx-time-five' ></i>
+                                                    </div>
+                                                    <div class="clock-text">
+                                                        <p>28 October</p>
+                                                    </div>
+                                                </div>  
+                                            </div>
+                                        </div>
+                                        <div class="layer5">
+                                            <div class="avater-container">
+                                                <div class="avatar">
+                                                    <img src="./images/memoji-1.png" alt="">
+                                                </div>
+                                                <div class="avatar">
+                                                    <img src="./images/memoji-2.png" alt="">
+                                                </div>
+                                                <div class="avatar">
+                                                    <img src="./images/memoji.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="chain-container">
+                                                <div class="link">
+                                                    <div class="link-icon">
+                                                        <i class='bx bx-link-alt' ></i>
+                                                    </div>
+                                                    <div class="link-number">
+                                                        <p>16</p>
+                                                    </div>
+                                                </div>
+                                                <div class="link">
+                                                    <div class="link-icon">
+                                                        <i class='bx bx-message-square-dots' ></i>
+                                                    </div>
+                                                    <div class="link-number">
+                                                        <p>21</p>
+                                                    </div>
+                                                </div>     
+                                               </div>
+                                            </div>
+                                            </div>
+                        </div>
+
+                        <div class="column">
+                            <div class="color-tag teal">
+                                <div class="tag-text">
+                                    <p>In progress</p>
+                                </div>
+                                <div class="tag-icon tbg">
+                                    <i class='bx bx-plus' ></i>
+                                </div>
+                            </div>
+                                    
+                            <div class="card1 brdclr">
+                                                <div class="layer1">
+                                                    <div class="title self">
+                                                        <p>DEVELOPMENT</p>
+                                                    </div>
+                                                    <div class="more-icon">
+                                                        <i class='bx bx-dots-horizontal-rounded' ></i>
+                                                    </div>
+                                                </div>
+                                                <div class="layer3">
+                                                    <div class="title-lg">
+                                                        <p>Database Customization</p>
+                                                    </div>
+                                                    <div class="title-body">
+                                                        <p>Uber</p>
+                                                    </div>
+                                                </div>
+                                                <div class="layer3-5">
+                                                    <p>Customizing the database for Uber's internal system, focusing on micro interactions
+                                                    </p>
+                                                </div>
+                                                <div class="layer4">
+                                                    <div class="flag-clock-container">
+                                                        <div class="flag-container">
+                                                            <div class="flag-icon">
+                                                                <i class='bx bx-flag' ></i>
+                                                            </div>
+                                                            <div class="flag-text">
+                                                                <p>Medium</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="clock-container">
+                                                            <div class="clock-icon">
+                                                                <i class='bx bx-time-five' ></i>
+                                                            </div>
+                                                            <div class="clock-text">
+                                                                <p>21 October</p>
+                                                            </div>
+                                                        </div>  
+                                                    </div>
+                                                </div>
+                                                <div class="layer5">
+                                                    <div class="avater-container">
+                                                        <div class="avatar">
+                                                            <img src="./images/memoji-1.png" alt="">
+                                                        </div>
+                                                        <div class="avatar">
+                                                            <img src="./images/memoji-2.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="chain-container">
+                                                        <div class="link">
+                                                            <div class="link-icon">
+                                                                <i class='bx bx-link-alt' ></i>
+                                                            </div>
+                                                            <div class="link-number">
+                                                                <p>10</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="link">
+                                                            <div class="link-icon">
+                                                                <i class='bx bx-message-square-dots' ></i>
+                                                            </div>
+                                                            <div class="link-number">
+                                                                <p>06</p>
+                                                            </div>
+                                                        </div>     
+                                                       </div>
+                                                    </div>
+                                                    </div>
+                                                    <div class="card1 brdclr">
+                                                        <div class="layer1">
+                                                            <div class="title self1">
+                                                                <p>3D MODELING</p>
+                                                            </div>
+                                                            <div class="more-icon">
+                                                                <i class='bx bx-dots-horizontal-rounded' ></i>
+                                                            </div>
+                                                        </div>
+                                                        <div class="layer3">
+                                                            <div class="title-lg">
+                                                                <p>Fix Interior Planning</p>
+                                                            </div>
+                                                            <div class="title-body">
+                                                                <p>Hotel Nice</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="layer3-5">
+                                                            <p>Adressing layout and functional issues in the 3D modelling of interior spaces
+                                                            </p>
+                                                        </div>
+                                                        <div class="layer4">
+                                                            <div class="flag-clock-container">
+                                                                <div class="flag-container self2">
+                                                                    <div class="flag-icon self3">
+                                                                        <i class='bx bx-flag' ></i>
+                                                                    </div>
+                                                                    <div class="flag-text self4">
+                                                                        <p>Low</p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="clock-container">
+                                                                    <div class="clock-icon">
+                                                                        <i class='bx bx-time-five' ></i>
+                                                                    </div>
+                                                                    <div class="clock-text">
+                                                                        <p>13 October</p>
+                                                                    </div>
+                                                                </div>  
+                                                            </div>
+                                                        </div>
+                                                        <div class="layer5">
+                                                            <div class="avater-container">
+                                                                <div class="avatar">
+                                                                    <img src="./images/memoji-1.png" alt="">
+                                                                </div>
+                                                                <div class="avatar">
+                                                                    <img src="./images/memoji-2.png" alt="">
+                                                                </div>
+                                                                <div class="avatar">
+                                                                    <img src="./images/memoji.png" alt="">
+                                                                </div>
+                                                            </div>
+                                                            <div class="chain-container">
+                                                                <div class="link">
+                                                                    <div class="link-icon">
+                                                                        <i class='bx bx-link-alt' ></i>
+                                                                    </div>
+                                                                    <div class="link-number">
+                                                                        <p>13</p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="link">
+                                                                    <div class="link-icon">
+                                                                        <i class='bx bx-message-square-dots' ></i>
+                                                                    </div>
+                                                                    <div class="link-number">
+                                                                        <p>09</p>
+                                                                    </div>
+                                                                </div>     
+                                                               </div>
+                                                            </div>
+                                                            </div>
+                        </div>
+
+                        <div class="column">
+                            <div class="color-tag green">
+                                <div class="tag-text">
+                                    <p>Done</p>
+                                </div>
+                                <div class="tag-icon gbg">
+                                    <i class='bx bx-plus' ></i>
+                                </div>
+                            </div>
+                                    
+                            <div class="card1 brdclr">
+                                                <div class="layer1">
+                                                    <div class="title">
+                                                        <p>DESIGN</p>
+                                                    </div>
+                                                    <div class="more-icon">
+                                                        <i class='bx bx-dots-horizontal-rounded' ></i>
+                                                    </div>
+                                                </div>
+                                                <div class="layer3">
+                                                    <div class="title-lg">
+                                                        <p>Redesign Wordpress Website</p>
+                                                    </div>
+                                                    <div class="title-body">
+                                                        <p>Design Lab</p>
+                                                    </div>
+                                                </div>
+                                                <div class="layer3-5">
+                                                    <p>Redesigning the website for Design Lab to enhance usability and visual appeal
+                                                    </p>
+                                                </div>
+                                                <div class="layer4">
+                                                    <div class="flag-clock-container">
+                                                        <div class="flag-container self5">
+                                                            <div class="flag-icon self6">
+                                                                <i class='bx bx-flag' ></i>
+                                                            </div>
+                                                            <div class="flag-text self7">
+                                                                <p>High</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="clock-container">
+                                                            <div class="clock-icon">
+                                                                <i class='bx bx-time-five' ></i>
+                                                            </div>
+                                                            <div class="clock-text">
+                                                                <p>17 October</p>
+                                                            </div>
+                                                        </div>  
+                                                    </div>
+                                                </div>
+                                                <div class="layer5">
+                                                    <div class="avater-container">
+                                                        <div class="avatar">
+                                                            <img src="./images/memoji-1.png" alt="">
+                                                        </div>
+                                                        <div class="avatar">
+                                                            <img src="./images/memoji-2.png" alt="">
+                                                        </div>
+                                                        <div class="avatar">
+                                                            <img src="./images/memoji.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="chain-container">
+                                                        <div class="link">
+                                                            <div class="link-icon">
+                                                                <i class='bx bx-link-alt' ></i>
+                                                            </div>
+                                                            <div class="link-number">
+                                                                <p>02</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="link">
+                                                            <div class="link-icon">
+                                                                <i class='bx bx-message-square-dots' ></i>
+                                                            </div>
+                                                            <div class="link-number">
+                                                                <p>29</p>
+                                                            </div>
+                                                        </div>     
+                                                       </div>
+                                                    </div>
+                                                    </div>
+                                                    <div class="card1 brdclr">
+                                                        <div class="layer1">
+                                                            <div class="title self8">
+                                                                <p>MARKETING</p>
+                                                            </div>
+                                                            <div class="more-icon">
+                                                                <i class='bx bx-dots-horizontal-rounded' ></i>
+                                                            </div>
+                                                        </div>
+                                                        <div class="layer3">
+                                                            <div class="title-lg">
+                                                                <p>Facebook Ads Campaign</p>
+                                                            </div>
+                                                            <div class="title-body">
+                                                                <p>Plantify</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="layer4">
+                                                            <div class="flag-clock-container">
+                                                                <div class="flag-container">
+                                                                    <div class="flag-icon">
+                                                                        <i class='bx bx-flag' ></i>
+                                                                    </div>
+                                                                    <div class="flag-text">
+                                                                        <p>Medium</p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="clock-container">
+                                                                    <div class="clock-icon">
+                                                                        <i class='bx bx-time-five' ></i>
+                                                                    </div>
+                                                                    <div class="clock-text">
+                                                                        <p>20 October</p>
+                                                                    </div>
+                                                                </div>  
+                                                            </div>
+                                                        </div>
+                                                        <div class="layer5">
+                                                            <div class="avater-container">
+                                                                <div class="avatar">
+                                                                    <img src="./images/memoji-1.png" alt="">
+                                                                </div>
+                                                                <div class="avatar">
+                                                                    <img src="./images/memoji-2.png" alt="">
+                                                                </div>
+                                                            </div>
+                                                            <div class="chain-container">
+                                                                <div class="link">
+                                                                    <div class="link-icon">
+                                                                        <i class='bx bx-link-alt' ></i>
+                                                                    </div>
+                                                                    <div class="link-number">
+                                                                        <p>03</p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="link">
+                                                                    <div class="link-icon">
+                                                                        <i class='bx bx-message-square-dots' ></i>
+                                                                    </div>
+                                                                    <div class="link-number">
+                                                                        <p>17</p>
+                                                                    </div>
+                                                                </div>     
+                                                               </div>
+                                                            </div>
+                                                            </div>
+                        </div>
+
+                        
+                                </div>    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
